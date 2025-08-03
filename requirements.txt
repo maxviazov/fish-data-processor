@@ -2,7 +2,7 @@ openpyxl
 pandas
 typer[all]
 loguru
-# UI (на выбор, для примера Streamlit и FastAPI, ты выберешь позже)
+# UI (на выбор, для примера Streamlit и FastAPI, выберу позже)
 streamlit
 fastapi
 uvicorn
