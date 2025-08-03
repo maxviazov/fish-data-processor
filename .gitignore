@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# Output data
+data/output/*
+!data/output/.gitkeep
+
+# Input data (оставить шаблоны)
+data/input/*
+!data/input/.gitkeep
+
+# Templates
+data/templates/*
+!data/templates/.gitkeep
+
+# UI build (если фронт собирается)
+fish_reports_ui/build/
+fish_reports_ui/dist/

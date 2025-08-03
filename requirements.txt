@@ -1,0 +1,8 @@
+openpyxl
+pandas
+typer[all]
+loguru
+# UI (на выбор, для примера Streamlit и FastAPI, ты выберешь позже)
+streamlit
+fastapi
+uvicorn
