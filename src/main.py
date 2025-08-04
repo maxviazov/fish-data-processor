@@ -27,7 +27,6 @@ async def preview_file(file_path: str):
         return {"error": f"Ошибка при чтении файла: {str(e)}"}
 
 async def main():
-    # Пример вызова preview_excel при запуске (можно убрать или оставить для отладки)
     preview_excel("/Users/maxviazov/Downloads/משקל .xlsx", needs_columns=NEEDS_COLUMNS)
 
     config = uvicorn.Config(
